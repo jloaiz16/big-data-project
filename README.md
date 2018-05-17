@@ -13,6 +13,14 @@ Se usarán técnicas de procesamiento natural de lenguaje para hacer análisis d
 
 ## Carga de datos en HDFS
 
+```javascript
+cargar_datos1 = sc.textFile("hdfs:///user/jgomez88/datasets/airlines.csv")
+
+
+cargar_datos1.saveAsTextFile("hdfs:///user/jgomez88/BigDataProyecto_3")
+
+```
+
 ## Procesamiento de texto y limpieza para tranformación
 
 ## Modelo de análitica basado en Spark ML

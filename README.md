@@ -22,10 +22,9 @@ cargar_datos1.saveAsTextFile("hdfs:///user/jgomez88/BigDataProyecto_3")
 ```
 
 ## Leer datos en spark
-```javascript
-data = spark.read.load('/user/jgomez88/datasets/airlines.csv',format='csv', header=True)
-
-data.show(10);
+```python
+ >>> data = spark.read.load('/user/jgomez88/datasets/airlines.csv',format='csv', header=True)
+ >>> data.show(10);
 ```
 ![data](http://img.fenixzone.net/i/IcTCMd7.png)
 

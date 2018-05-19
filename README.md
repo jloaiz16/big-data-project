@@ -30,6 +30,18 @@ cargar_datos1.saveAsTextFile("hdfs:///user/jgomez88/BigDataProyecto_3")
 
 ## Procesamiento de texto y limpieza para tranformación
 
-## Modelo de análitica basado en Spark ML
+## Modelo de analítica basado en Spark ML
+
+### Clasificación de comentarios
+
+Para el modelo de analítica clasificamos manualmente __450__ registros, esta clasificación se repartió entre los tres miembros del equipo, cada miembro verificó 150 registros y de acuerdo al comentario de cada cliente se clasifico como negativo, neutro y positivo. 
+
+### Entrenamiento
+
+Para el entrenamiento del modelo, vamos a usar la transformación del __80%__ (360 registros) de los comentarios realizados en el numeral anterior, así el modelo aprenderá que ciertas palabras están relacionadas con un tipo de comentario.
+
+### Testeo
+
+Para probar el modelo usaremos el __20%__ (90 registros) restante de los comentarios transformados, así verificaremos las precisión del modelo. 
 
 ## Visualización de resultados

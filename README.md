@@ -29,6 +29,18 @@ cargar_datos1.saveAsTextFile("hdfs:///user/jgomez88/BigDataProyecto_3")
 ![data](http://img.fenixzone.net/i/IcTCMd7.png)
 
 ## Procesamiento de texto y limpieza para tranformación
+* Código de limpieza
+
+![limpieza](http://img.fenixzone.net/i/n9gukBw.png)
+
+* Mostrar tabla
+
+![Table](http://img.fenixzone.net/i/vBQGf1U.png)
+
+* Generación de la nueva tabla con nuevos campos
+
+![Generacion](http://img.fenixzone.net/i/s4IoRc1.png)
+
 
 ## Modelo de analítica basado en Spark ML
 

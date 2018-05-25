@@ -1,11 +1,13 @@
 from pyspark.ml.feature import HashingTF, IDF, Tokenizer, CountVectorizer
+from pyspark.ml.feature import CountVectorizer, IDF, StopWordsRemover,HashingTF, Tokenizer
 from pyspark.sql.types import *
 from pyspark.sql.functions import *
 from pyspark.ml.linalg import Vectors, SparseVector
 from pyspark.ml.clustering import LDA, BisectingKMeans
 from pyspark.sql.functions import monotonically_increasing_id
+from pyspark import SparkContext
+from pyspark.sql import SparkSession
 import re
-
 
 def cleanup_text(record):
     text  = record[8]

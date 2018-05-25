@@ -43,6 +43,8 @@ cargar_datos1.saveAsTextFile("hdfs:///user/jgomez88/BigDataProyecto_3")
 
 * Generar TFIDF
 
+![Generacion4](http://img.fenixzone.net/i/d3SxXWE.png)
+
 * LDA
 
 ![Generacion2](http://img.fenixzone.net/i/5I2iaLK.png)
@@ -52,6 +54,8 @@ cargar_datos1.saveAsTextFile("hdfs:///user/jgomez88/BigDataProyecto_3")
 
 
 * Tabla de registro para SparkSQL
+
+![Generacion5](http://img.fenixzone.net/i/DJoxXYB.png)
 
 
 ## Modelo de analítica basado en Spark ML
